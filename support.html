@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ogi Lingo Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --text: #1f2933;
+      --muted: #52606d;
+      --border: #d9e2ec;
+      --accent: #1d4ed8;
+      --background: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(100%, 760px);
+      margin: 0 auto;
+      padding: 40px 20px 28px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin: 32px 0 12px;
+      font-size: 1.25rem;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 24px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 36px;
+      padding-top: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 520px) {
+      main {
+        padding: 28px 16px 22px;
+      }
+
+      h1 {
+        font-size: 1.65rem;
+      }
+
+      .card {
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Ogi Lingo Support</h1>
+    <p class="muted">Ogi Lingo is a multilingual word puzzle game.</p>
+
+    <section class="card" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>
+        For support requests, please email
+        <a href="mailto:ouaydin67@gmail.com">ouaydin67@gmail.com</a>.
+      </p>
+      <p>
+        Read our
+        <a href="privacy-policy.html">Privacy Policy</a>.
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="topics-title">
+      <h2 id="topics-title">Common Support Topics</h2>
+      <ul>
+        <li>Account and login issues</li>
+        <li>Premium and subscription issues</li>
+        <li>Ads or rewarded ads</li>
+        <li>Bug reports</li>
+        <li>Accessibility and speech input</li>
+      </ul>
+    </section>
+
+    <footer>
+      &copy; 2026 Oguzhan Aydin
+    </footer>
+  </main>
+</body>
+</html>
